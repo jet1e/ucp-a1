@@ -1,0 +1,20 @@
+Program Functionality: 
+All files within this directory is for Assessment 1 of UCP. The program is a terminal game, which contains a player that crosses multiple roads
+containing obstacles (Cars). Each time user input w,a,s,d, the player will move in that direction and cars will move by one position.
+Car collisions are a losing criteria. Reaching the goal marked 'G' is a winning criteria. This game can be thought of similarly to Crossy Road.
+
+Files included: car.c, car.h, main.c, main.h, map.c, map.h, player.c, player.h, random.c, random.h, makefile
+
+Design Structure:
+  - Each .c file has a resepective .h file which contains forward declarations and abbreviations
+  - The makefile is responsible for compiling and running the program: type make within the terminal
+
+File Source Code Design: 
+  - car.c contains all car related functions, i.e. moveCar(), generate cars etc.
+  - Similarly map.c contains all map related functions
+  - And similarly player.c contains all player related functions i.e. moveplayer()
+  - random.c is a special file which contains the random number generator as per the UCP Supplementary videos
+  - main.c creates the game interface and contains argument and winning logic, reads user input. 
+    This file also contains all method calls to create the playable game. 
+
+Edited by Jet Tue Hung Le (21546679), 18/09/2023.
