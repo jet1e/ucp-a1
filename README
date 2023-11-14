@@ -1,3 +1,5 @@
+Usage: ./traffic <rows> <cols>
+
 Program Functionality: 
 All files within this directory is for Assessment 1 of UCP. The program is a terminal game, which contains a player that crosses multiple roads
 containing obstacles (Cars). Each time user input w,a,s,d, the player will move in that direction and cars will move by one position.
