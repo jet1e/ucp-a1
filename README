@@ -19,4 +19,4 @@ File Source Code Design:
   - main.c creates the game interface and contains argument and winning logic, reads user input. 
     This file also contains all method calls to create the playable game. 
 
-Edited by Jet Tue Hung Le (21546679), 18/09/2023.
+Edited by Jet Le, 18/09/2023.
